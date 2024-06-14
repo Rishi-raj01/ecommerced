@@ -157,7 +157,7 @@ module.exports.forgetpassword = async function forgetpassword(req, res) {
             });
         }
     } catch (err) {
-        res.send({
+        ressend({
             message: err.message
         });
     }
