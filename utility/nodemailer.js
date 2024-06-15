@@ -35,7 +35,7 @@ else
 async function main() {
   // send mail with defined transport object
   const info = await transporter.sendMail({
-    from: '"Food Fiesta👻" <rishirajjnvr448@gmail.com>', // sender address
+    from: '"E-Commerce website" <rishirajjnvr448@gmail.com>', // sender address
     to: data.email, // list of receivers
     subject: Osubject, // Subject line
     text: Otext, // plain text body
